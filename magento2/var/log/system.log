@@ -1,0 +1,53 @@
+[2025-02-13T12:37:03.037921+00:00] main.ERROR: Parameter validation failed
+#0 /var/www/html/magento2/vendor/symfony/console/Command/Command.php(292): Magento\Setup\Console\Command\InstallCommand->initialize()
+#1 /var/www/html/magento2/vendor/symfony/console/Application.php(1078): Symfony\Component\Console\Command\Command->run()
+#2 /var/www/html/magento2/vendor/symfony/console/Application.php(324): Symfony\Component\Console\Application->doRunCommand()
+#3 /var/www/html/magento2/vendor/magento/framework/Console/Cli.php(118): Symfony\Component\Console\Application->doRun()
+#4 /var/www/html/magento2/vendor/symfony/console/Application.php(175): Magento\Framework\Console\Cli->doRun()
+#5 /var/www/html/magento2/bin/magento(23): Symfony\Component\Console\Application->run()
+#6 {main} [] []
+[2025-02-13T12:38:56.848132+00:00] main.ERROR: Parameter validation failed
+#0 /var/www/html/magento2/vendor/symfony/console/Command/Command.php(292): Magento\Setup\Console\Command\InstallCommand->initialize()
+#1 /var/www/html/magento2/vendor/symfony/console/Application.php(1078): Symfony\Component\Console\Command\Command->run()
+#2 /var/www/html/magento2/vendor/symfony/console/Application.php(324): Symfony\Component\Console\Application->doRunCommand()
+#3 /var/www/html/magento2/vendor/magento/framework/Console/Cli.php(118): Symfony\Component\Console\Application->doRun()
+#4 /var/www/html/magento2/vendor/symfony/console/Application.php(175): Magento\Framework\Console\Cli->doRun()
+#5 /var/www/html/magento2/bin/magento(23): Symfony\Component\Console\Application->run()
+#6 {main} [] []
+[2025-02-13T12:41:04.823427+00:00] main.ERROR: Parameter validation failed
+#0 /var/www/html/magento2/vendor/symfony/console/Command/Command.php(292): Magento\Setup\Console\Command\InstallCommand->initialize()
+#1 /var/www/html/magento2/vendor/symfony/console/Application.php(1078): Symfony\Component\Console\Command\Command->run()
+#2 /var/www/html/magento2/vendor/symfony/console/Application.php(324): Symfony\Component\Console\Application->doRunCommand()
+#3 /var/www/html/magento2/vendor/magento/framework/Console/Cli.php(118): Symfony\Component\Console\Application->doRun()
+#4 /var/www/html/magento2/vendor/symfony/console/Application.php(175): Magento\Framework\Console\Cli->doRun()
+#5 /var/www/html/magento2/bin/magento(23): Symfony\Component\Console\Application->run()
+#6 {main} [] []
+[2025-02-13T12:45:24.301381+00:00] main.INFO: Source table payment_services_order_status_data_production_submitted_hash does not exist. Skipping data migration... [] []
+[2025-02-13T12:46:18.079748+00:00] main.ERROR: crontab -l 2>/dev/null 2>&1
+no crontab for root [] []
+[2025-02-13T12:46:18.084647+00:00] main.ERROR: crontab -l 2>/dev/null 2>&1
+no crontab for root [] []
+[2025-02-13T12:46:18.099545+00:00] main.INFO: echo "
+#~ MAGENTO START f73db5f5dcf223372d4c9fab56bef0c1730eece898fad5cbee0c313b46b0dd1f
+* * * * * /usr/bin/php8.3 /var/www/html/magento2/bin/magento cron:run 2>&1 | grep -v \"Ran jobs by schedule\" >> /var/www/html/magento2/var/log/magento.cron.log
+#~ MAGENTO END f73db5f5dcf223372d4c9fab56bef0c1730eece898fad5cbee0c313b46b0dd1f
+" 2>&1 | crontab - 2>&1
+ [] []
+[2025-02-13T12:46:53.568326+00:00] main.ERROR: The "/var/www/html/magento2/var/tmp/alternative-source-css.lock" file can't be deleted.  [] []
+[2025-02-13T12:46:53.568812+00:00] main.CRITICAL: The "/var/www/html/magento2/var/tmp/alternative-source-css.lock" file can't be deleted.  [] []
+[2025-02-13T12:54:15.248897+00:00] main.ERROR: An existing user has the given username but different email. Username and email both need to match an existing user or both be new.
+#0 /var/www/html/magento2/setup/src/Magento/Setup/Model/AdminAccount.php(113): Magento\Setup\Model\AdminAccount->validateUserMatches()
+#1 /var/www/html/magento2/setup/src/Magento/Setup/Model/AdminAccount.php(83): Magento\Setup\Model\AdminAccount->saveAdminUser()
+#2 /var/www/html/magento2/setup/src/Magento/Setup/Model/Installer.php(1344): Magento\Setup\Model\AdminAccount->save()
+#3 [internal function]: Magento\Setup\Model\Installer->installAdminUser()
+#4 /var/www/html/magento2/setup/src/Magento/Setup/Model/Installer.php(407): call_user_func_array()
+#5 /var/www/html/magento2/setup/src/Magento/Setup/Console/Command/InstallCommand.php(237): Magento\Setup\Model\Installer->install()
+#6 /var/www/html/magento2/vendor/symfony/console/Command/Command.php(326): Magento\Setup\Console\Command\InstallCommand->execute()
+#7 /var/www/html/magento2/vendor/symfony/console/Application.php(1078): Symfony\Component\Console\Command\Command->run()
+#8 /var/www/html/magento2/vendor/symfony/console/Application.php(324): Symfony\Component\Console\Application->doRunCommand()
+#9 /var/www/html/magento2/vendor/magento/framework/Console/Cli.php(118): Symfony\Component\Console\Application->doRun()
+#10 /var/www/html/magento2/vendor/symfony/console/Application.php(175): Magento\Framework\Console\Cli->doRun()
+#11 /var/www/html/magento2/bin/magento(23): Symfony\Component\Console\Application->run()
+#12 {main} [] []
+[2025-02-13T13:00:03.355151+00:00] main.INFO: Request token yeoqf1n13hrccp13rjtwlzchozymjw2c was exchanged to obtain access token for consumer 1 [] []
+[2025-02-13T13:00:05.128350+00:00] main.WARNING: Subscription for MBI service has been failed. An error occurred during token exchange: {"message":"Handshake request failed."}. Content-Type: application/json; charset=UTF-8 [] []
