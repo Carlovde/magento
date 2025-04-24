@@ -986,3 +986,30 @@ Class Magento\Framework\MessageQueue\Topology\Config\CompositeReader\Interceptor
 [2025-02-27T14:21:10.569210+00:00] main.INFO: Broken reference: the 'paypal.partner.right.logo' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
 [2025-02-27T14:21:10.569321+00:00] main.INFO: Broken reference: the 'bml.right.logo' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
 [2025-02-27T14:21:10.569409+00:00] main.INFO: Broken reference: the 'sidebar.container.paylater' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2025-04-10T13:18:24.187882+00:00] main.ERROR: NOTE: Manual static content deployment is not required in "default" and "developer" modes.
+In "default" and "developer" modes static contents are being deployed automatically on demand.
+If you still want to deploy in these modes, use -f option: 'bin/magento setup:static-content:deploy -f'
+#0 /home/carlo/magento/magento2/setup/src/Magento/Setup/Console/Command/DeployStaticContentCommand.php(112): Magento\Setup\Console\Command\DeployStaticContentCommand->checkAppMode()
+#1 /home/carlo/magento/magento2/vendor/symfony/console/Command/Command.php(326): Magento\Setup\Console\Command\DeployStaticContentCommand->execute()
+#2 /home/carlo/magento/magento2/vendor/symfony/console/Application.php(1078): Symfony\Component\Console\Command\Command->run()
+#3 /home/carlo/magento/magento2/vendor/symfony/console/Application.php(324): Symfony\Component\Console\Application->doRunCommand()
+#4 /home/carlo/magento/magento2/vendor/magento/framework/Console/Cli.php(118): Symfony\Component\Console\Application->doRun()
+#5 /home/carlo/magento/magento2/vendor/symfony/console/Application.php(175): Magento\Framework\Console\Cli->doRun()
+#6 /home/carlo/magento/magento2/bin/magento(23): Symfony\Component\Console\Application->run()
+#7 {main} [] []
+[2025-04-10T13:59:41.186033+00:00] main.NOTICE: magento_import returns empty result by path css/source/_email.less for theme Hyva/reset [] []
+[2025-04-10T13:59:41.564453+00:00] main.NOTICE: magento_import returns empty result by path css/source/_email.less for theme Hyva/reset [] []
+[2025-04-10T13:59:53.479157+00:00] main.NOTICE: magento_import returns empty result by path css/source/_email.less for theme Hyva/default [] []
+[2025-04-10T13:59:53.800349+00:00] main.NOTICE: magento_import returns empty result by path css/source/_email.less for theme Hyva/default [] []
+[2025-04-10T14:05:39.559917+00:00] main.NOTICE: magento_import returns empty result by path css/source/_email.less for theme Hyva/reset [] []
+[2025-04-10T14:05:39.879002+00:00] main.NOTICE: magento_import returns empty result by path css/source/_email.less for theme Hyva/reset [] []
+[2025-04-10T14:05:51.888586+00:00] main.NOTICE: magento_import returns empty result by path css/source/_email.less for theme Hyva/default [] []
+[2025-04-10T14:05:52.215764+00:00] main.NOTICE: magento_import returns empty result by path css/source/_email.less for theme Hyva/default [] []
+[2025-04-24T11:45:13.357112+00:00] main.NOTICE: magento_import returns empty result by path css/source/_email.less for theme Hyva/reset [] []
+[2025-04-24T11:45:13.695603+00:00] main.NOTICE: magento_import returns empty result by path css/source/_email.less for theme Hyva/reset [] []
+[2025-04-24T11:45:25.632990+00:00] main.NOTICE: magento_import returns empty result by path css/source/_email.less for theme Hyva/reset [] []
+[2025-04-24T11:45:25.995701+00:00] main.NOTICE: magento_import returns empty result by path css/source/_email.less for theme Hyva/reset [] []
+[2025-04-24T11:45:39.007312+00:00] main.NOTICE: magento_import returns empty result by path css/source/_email.less for theme Hyva/default [] []
+[2025-04-24T11:45:39.354684+00:00] main.NOTICE: magento_import returns empty result by path css/source/_email.less for theme Hyva/default [] []
+[2025-04-24T11:45:46.727937+00:00] main.NOTICE: magento_import returns empty result by path css/source/_email.less for theme Hyva/default [] []
+[2025-04-24T11:45:47.078823+00:00] main.NOTICE: magento_import returns empty result by path css/source/_email.less for theme Hyva/default [] []

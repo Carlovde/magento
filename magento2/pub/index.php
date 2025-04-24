@@ -8,6 +8,8 @@
 
 use Magento\Framework\App\Bootstrap;
 
+die('test');
+
 try {
     require __DIR__ . '/../app/bootstrap.php';
 } catch (\Exception $e) {
